@@ -1,0 +1,74 @@
+@import url(https://fonts.googleapis.com/css?family=Satisfy); 
+@import url(https://fonts.googleapis.com/css?family=Six+Caps);
+
+body {
+  background: url(http://api.thumbr.it/whitenoise-361x370.png?background=15424fff&noise=166f9e&density=100&opacity=61);
+  text-align: center;
+}
+
+
+
+
+
+.vintage {
+  font-family: 'Six Caps', sans-serif;
+  font-size: 192px;
+  letter-spacing: 10px;
+  line-height: 1;
+  margin: 0;
+  position: relative;
+}
+
+.vintage__top {
+  background: linear-gradient(rgb(240, 220, 200), rgb(200, 200, 160));
+  -webkit-background-clip: text;
+  background-clip: text;
+  position: absolute;
+  z-index: 1;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: red;
+}
+
+
+
+.outro--smart {
+  display: block;
+}
+body {
+  background-color: black;
+  background-image: url("https://drive.google.com/uc?id=1Fl6kT09l73zeoy4ql7kMRqp44SAscrAo");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.grid {
+  max-width: 99%;
+  display: grid;
+  grid-template-columns: repeat(2, 45%);
+ grid-column-gap: 5%;
+ justify-content: center;
+  padding: 0 auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+.talk-bubble {
+	margin: 40px;
+  display: inline-block;
+  position: relative;
+	width: 200px;
+	height: auto;
+	background-color: lightyellow;
+}
+.border{
+  border: 8px solid #666;
+}
+.round{
+  border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+
+}
